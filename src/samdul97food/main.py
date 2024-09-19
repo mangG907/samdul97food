@@ -11,7 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:8899", # 로컬
-    "https://samdul97food.web.app", # 맨 끝에 / 있으면 안돌아감!!!!
+    "https://samdul97food-b2b1c.web.app", # 맨 끝에 / 있으면 안돌아감!!!!
 ]
 
 app.add_middleware(
